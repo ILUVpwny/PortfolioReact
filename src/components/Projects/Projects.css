@@ -1,5 +1,5 @@
 .Projects {
-    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)) , url('../../image/Project_bg.jpg'); 
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)) , url('../../resources/Project_bg.jpg'); 
     background-size: cover;
     background-position-x: center;
     height: 100vh;

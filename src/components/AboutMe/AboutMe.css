@@ -1,5 +1,5 @@
 .AboutMe{
-    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0),rgba(0, 0, 0, 1)) , url('../../image/AboutMe_bg.png'); 
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0),rgba(0, 0, 0, 1)) , url('../../resources/AboutMe_bg.png'); 
     background-size: cover;
     background-position-x: center;
     height: 100vh;

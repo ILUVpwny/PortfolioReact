@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
-import myImage from '../../image/me.png'
+import myImage from '../../resources/me.png'
 
 
 function AboutMe() {
