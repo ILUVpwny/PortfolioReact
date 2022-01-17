@@ -11,7 +11,7 @@ const MenuItems = [
     },
     {
         title: 'PROJECTS',
-        url: '#',
+        url: '#Projects',
         cName: 'nav-links'
     },
 ]
