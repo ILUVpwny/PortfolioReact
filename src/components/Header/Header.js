@@ -27,7 +27,7 @@ function Header() {
                         }
                     />
                 </p>
-                <Button className='Header-btn'/>
+                <Button text='Learn More' />
             </div>
         </div>
     )

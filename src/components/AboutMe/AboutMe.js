@@ -5,7 +5,7 @@ import myImage from '../../resources/me.png'
 
 function AboutMe() {
     return (
-        <div className='AboutMe'>
+        <div className='AboutMe' id='AboutMe'>
             <div className='AboutMe-Text'>
                 <h1 className='AboutMe-Header'>About Me</h1>
                 <p className='AboutMe-Intro'>I am Naravish Thongnok. A Benjamarachutit student...</p>

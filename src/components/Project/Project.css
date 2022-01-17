@@ -1,0 +1,45 @@
+.Project{
+    width: 300px;
+    min-height: 300px;
+    margin: 50px;
+    background: hsl(0 0% 0% /0.3);
+    backdrop-filter: blur(1rem);
+    text-align: left;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.Project-Text{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.Project-Title{
+    color: #FE7E6D;
+}
+.Project-Desc{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.Project-Gitbtn-Wrapper{
+    position: absolute;
+    border: 1px solid rgb(83, 0, 218);
+    border-radius: 20px;
+    padding: 10px 15px;
+    left: 18px;
+    bottom: 15px
+}
+
+.Project-Gitbtn-Text{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.Project-Gitlink.hide{
+    visibility: hidden;
+}
+.Project-Gitbtn-Wrapper:hover{
+    background-color: rgb(83, 0, 218);
+}
