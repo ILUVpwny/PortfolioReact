@@ -1,0 +1,45 @@
+.AboutMe{
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)) , url('../../image/AboutMe_bg.png'); 
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.AboutMe-Text{
+    margin-left: 3vw;
+    width: 50vw;
+}
+.AboutMe-Header{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.AboutMe-Intro{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.AboutMe-Main{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.AboutMe-Me{
+    position: absolute;
+    right: 0px;
+    bottom: -100vh;
+}
+
+@media screen and (max-width:40em){
+    .AboutMe-Me{
+        visibility: hidden;
+        right: 0;
+    }
+    .AboutMe-Text{
+        width: 90vw;
+    }
+
+}
