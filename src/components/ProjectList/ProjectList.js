@@ -10,7 +10,7 @@ export default class ProjectList extends Component {
 
     render() {
         return (
-            <div className='ProjectList'>
+            <div className='ProjectList' id='Projects'>
                 <div className='ProjectList-Text'>
                     <h1 className='ProjectList-Title'>My Project</h1>
                     <p className='ProjectList-Desc'>This is some examples of projects I had done in my free time. Many are not fully functional yet, but I hope it'll be in use with your evaluation of my skillset</p>
