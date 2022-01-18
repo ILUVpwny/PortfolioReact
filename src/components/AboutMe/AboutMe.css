@@ -1,39 +1,44 @@
 .AboutMe{
-    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)) , url('../../image/AboutMe_bg.png'); 
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0),rgba(0, 0, 0, 1)) , url('../../resources/AboutMe_bg.png'); 
     background-size: cover;
     background-position-x: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
 }
 
 .AboutMe-Text{
-    margin-left: 3vw;
     width: 50vw;
+    background: hsl(0 0% 0% /0.5);
+    backdrop-filter: blur(3rem);
 }
 .AboutMe-Header{
+    margin: 2vw;
     font-size: 4rem;
     font-weight: bold;
 }
 
 .AboutMe-Intro{
+    margin: 2vw;
     font-size: 1.4rem;
     font-weight: bold;
 }
 
 .AboutMe-Main{
+    margin: 2vw;
     margin-top: 10px;
     font-size: 1.2rem;
 }
 
 .AboutMe-Me{
     position: absolute;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
     right: 0px;
     bottom: -100vh;
 }
 
-@media screen and (max-width:40em){
+@media screen and (max-width:50em){
     .AboutMe-Me{
         visibility: hidden;
         right: 0;
@@ -41,5 +46,4 @@
     .AboutMe-Text{
         width: 90vw;
     }
-
 }

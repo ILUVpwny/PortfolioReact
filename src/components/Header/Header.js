@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.scss'
+import './Header.css'
 import Typical from 'react-typical'
 import Button from '../Button'
 function Header() {
@@ -27,7 +27,7 @@ function Header() {
                         }
                     />
                 </p>
-                <Button className='Header-btn'/>
+                <Button text='Learn More' />
             </div>
         </div>
     )
