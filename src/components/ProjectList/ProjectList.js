@@ -19,12 +19,12 @@ export default class ProjectList extends Component {
                     <Project
                         name='PwnyAPI'
                         desc='An API for minecraft Mod based on fabric-loader. The goal is to unify all mod entity management system under one group of interface to encourage 
-                        inter-project compatibiity. The logic behind the mod is base on ESC. With game objects such as ItemStack, Entity, BlockEntity carry components callled "Abilities" which will be the part that actually do work.'
+                        inter-project compatibiity. The logic behind the mod is base on ECS. With game objects such as ItemStack, Entity, BlockEntity carry components callled "Abilities" which will be the part that actually do work.'
                         githubLink='https://github.com/ILUVpwny/PwnyAPI'/>
                     <Project
                         name='PwnyPipe'
                         desc='An implementation of PwnyAPI Abilities System. Allowing interaction(transfer) between different mods that implement default PwnyAPI Abilities interface, without them directly
-                        interact with each other'
+                        interact with each other.'
                         githubLink='https://github.com/ILUVpwny/PwnyPipe'/>
                     <Project
                         name='GraderBot'
